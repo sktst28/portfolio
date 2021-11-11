@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+.container{width: 100%; position: relative;}
+.visual{background: url(../images/visual_bg.png)no-repeat top center; background-size: cover; width: 100vw; height: 770px; position: relative;}
+.visualTxt{position: absolute; top: 50%; color: #fff; font-family: "Playfair Display"; font-size: 4rem; text-align: center;
+    letter-spacing: 2px; left: 30%;  line-height: 1.5; transform: translate(-50%,-50%)}
+
+/* product */
+.product{width: 100%; height: 500px; position: relative; margin-top: 50px;}
+.product_grp{position: relative; margin-left: 40px; margin-right: 40px; max-width: 1200px; height: 500px; margin: 0 auto;}
+.product_list{width: 3000px; left:-500px; position: absolute;}
+.prd_li{float: left; width:11%;}
+.prd_box .itemTxt{padding-top: 30px;}
+.prd_box .itemTxt span{display: block; text-align: center; font-size: 1rem;}
+.prd_box .itemTxt span:first-child{padding-bottom: 7px; font-size: 1.1rem;}
+
+/* prduct btn */
+.btn{position: absolute; width: 70px; height: 70px; top:50%; margin-top: -50px}
+.btn a{display: block; width: 100%; height: 100%; font-size: 0; }
+.leftBtn{background: url(../images/prev_btn.png)no-repeat 50% 50%; left:0;  display: block; background-color: #333333;}
+.rightBtn{background: url(../images/next_btn.png)no-repeat 50% 50%; right:0;  display: block; background-color: #333333}
+
+
+/* article */
+.article{width: 100%; position: relative; margin-top: 150px;}
+.article_wrap{max-width: 1200px; position: relative; margin: 0 auto; padding-left: 5%;}
+.article_wrap .art_img{float: left;}
+.article_txt{float: left; padding-left: 4%;}
+.article_txt h2{padding-bottom: 40px; font-size: 2rem;}
+.article_txt p{font-size: 1rem; font-weight: 400; line-height: 1.6;}
+.article_wrap  p img{width: 500px; height: 500px;}
+.article_txt .moreBtn{display: inline-block; background-color: #333333; width: 250px; height: 50px; color: #fff;
+padding-left: 25px; line-height: 50px; font-size: 1rem; margin-top: 50px;}
+.article_txt .moreBtn a{color: #fff; background: url(../images/next_btn.png)no-repeat 90% center / 15px 15px; display: block;}
+
+/* middle_banner */
+.middle_banner{width: 100%; position: relative; height: 250px; margin-top:150px; background-color: #ecece7; z-index: -1;}
+.banr_wrap{position: relative; max-width: 700px; margin: 0 auto; text-align: center; padding-top: 20px; box-sizing: border;}
+.banr_sample{width: 28.5714%; position: relative; height: 200px; overflow: hidden;}
+.banr_sample:after{content: ''; display: inline-block; position: absolute; width: 4px; height: 100px; background-color: #b39a7c;
+left: 10px; top: 50px;}
+.banr_img{float: left; width: 600px; left: 0px; position: absolute; height: 200px;}
+.banr_img li{float: left; height: 200px; width: 33.3333%;}
+
+.banr_text{margin-top: 40px; font-weight: 500;}
+.banr_tit{font-size: 1.2rem;}
+.banr_txt{font-size: 1rem; padding-top: 10px;}
+
+.banr_num{overflow:hidden; text-align: center; display: block; margin-top: 30px;}
+.banr_num li{display: inline-block; margin-right: 15px; opacity: 1;}
+.banr_num li button{width: 40px; height: 40px; box-sizing: border-box; border: 1px solid #b39a7c; border-radius: 100%; background-color: #fff;
+color: #b39a7c;  font-weight: 600; font-size: 17px; background-color: #ecece7;  z-index: 99;}
+.banr_num li button.on{background-color: #b39a7c; color: #fff;}
+
+
+/* shop_info */
+.shop_info{position: relative; height: 600px; margin: 150px auto; max-width: 1500px;}
+.summary{float: left; padding-right: 5%; padding-left: 2%;}
+.summary p{font-size: 1rem;}
+.summary_tit{font-size: 2.1rem;}
+.summary_txt{padding-top: 30px;}
+.shop_info .banr_btn{width: 220px; height: 50px; position: absolute; top: 30%; left: 2%; padding-left: 25px; background-color: #333333;
+        line-height: 45px; font-size: 1rem;}
+.shop_info .banr_btn a{display: block; background: url(../images/next_btn_white.png)no-repeat 90% center; color: #fff;}
+
+.store_wrap{position: relative; max-width: 1000px; overflow:hidden; height: 600px; margin: 0 auto;}
+.store{width: 4000px; position: absolute; left: 0px;}
+.store li{float: left; width: 1000px; height: 600px;}
+
+.s_btn{position: absolute; width: 70px; height: 70px; display: inline-block; top:50%; margin-top: -50px;}
+.s_btn a{display: block; width: 100%; height: 100%; font-size: 0; color: #fff;}
+.s_leftBtn{background: url(../images/prev_btn.png)no-repeat 50% 50%; left:0;  display: block; background-color: #333333;}
+.s_rightBtn{background: url(../images/next_btn.png)no-repeat 50% 50%; right:0;  display: block; background-color: #333333}

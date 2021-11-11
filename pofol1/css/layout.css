@@ -1,0 +1,67 @@
+@charset "utf-8";
+#wrapper{width:100%; margin: 0 auto;}
+
+.hearder{width:100%; position: relative;}
+
+.header_utill{width:1200px; margin:0 auto; height: 86px; box-sizing: border-box; position: relative;}
+
+.search_bar{position:absolute; left:400px; top:20px;}
+
+.search_text{background: url(../images/search_bar.png) no-repeat 0 0; width: 371px; height: 42px; border: none; outline: none; padding-left: 20px; box-sizing: border-box; line-height: 30px;}
+
+input[type="image"]{position: absolute; top: 5px; right: 10px;}
+
+.header_utill h1{width:229px; height: 62px; padding-top: 5px}
+
+/*회원가입 홈 탭부분*/
+.header_utill_link{position: absolute; right: 0; top: 10px}
+.utill_link li{font-size: 14px; display: inline-block; padding: 20px 5px; background: url(../images/login_line.png) no-repeat 2px 27px; padding-left: 15px}
+.utill_link .utill01{background: none}
+.utill_link li span{position: relative; top: 3px;}
+.utillselect{width: 105px; position: relative; top: 1px; border: 1px solid #bebebe;}
+.utillfrm .lng_btn{border: 1px solid #bebebe; background-color: #fff; height: 23px; width: 30px;position: relative; top: 1px; font-size: 12px}
+
+/*gnb*/
+.gnb{width:100%; position: relative; margin: 0 auto; height: 40px; border-top: 1px solid #bebebe; 
+    border-bottom: 1px solid #bebebe; 
+    margin:0 auto;  z-index:98;}
+.gnb .deth1{width: 1200px; height: 40px; margin: 0 auto; text-align: center;}
+.gnb .deth1 > li{float: left; width: 170px; height: 40px; line-height: 40px;}
+.gnb .deth1 > li:first-child{padding-left: 5px;}
+.gnb .deth1 > li:last-child{padding-right: 5px;}
+.deth1 > li > a{font-size: 17px; display: block;}
+.deth1 > li:hover{background-color: #1490b6;}
+.deth1 > li:hover > a{color: #fff;}
+
+ /* 스크립트 */
+.subMenu .dethwrap{height: 400px; border-left: 1px solid  #bebebe; background-color: #fff; display: none;}
+.dethwrap .deth2{background-color: #fff; height: 400px; display: none;} 
+.dethwrap .deth2 > li{width: 170px; z-index: 99;} 
+.dethwrap .deth2:first-child{border-left:none}
+.dethwrap .deth2:hover{background-color: #dbe1eb;}
+.dethwrap .deth2 li:hover{background-color: #b7c6df;}
+
+/*footer시작*/
+.footer{width: 100%; position: relative;}
+.footer_menu{background-color: #46596f; height: 47px; width: 100%;}
+.footer_tab{width: 1200px; margin: 0 auto; }
+
+.footer_tab .footer_btn{width:1200px; margin: 0 auto; position: relative; }
+.footer_tab .footer_btn > li{float: left; width: 290px; height: 47px; font-size: 16px; font-weight: 300; background:url(../images_noticeboard/contents_list_more.png) no-repeat 95% center; border-right: 1px solid #758aa2;}
+.footer_tab .footer_btn > li:first-child{border-left: 1px solid #758aa2}
+.footer_tab .footer_btn > li >a{padding: 10px; display: block; color: #fff}
+
+.footer_list{position: absolute; background-color: #fff; top: -172px; font-size: 13px; line-height: 2.2;
+    width: 280px; height: 170px; border:1px solid #cfcfcf; padding-left: 10px; font-weight: 400;}
+.footer_list li:hover a{color: #1255a1;}
+.off{display: none;}
+
+.footer_zone{width: 1200px; margin: 10px auto; position: relative;}
+
+.footer_logo{float: left; margin-right: 15px;}
+
+.footer_info{margin-bottom: 10px; overflow: hidden;}
+.footer_info li{margin-left: 15px; float: left}
+.footer_info li:first-child{margin-left: 0px;}
+.footer_info li:first-child a{color: blue}
+.copy{color: #666}

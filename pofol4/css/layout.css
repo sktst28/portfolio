@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+#wrapper{width: 100%; position: relative;}
+
+.header_{position: absolute; top: 0; z-index: 99; width: 100%;}
+.inner{position: relative; padding: 0.5% 2% 0% 2%}
+.gnb_wrap{width: 33%}
+.gnb_wrap li{float: left; line-height: 55px;}
+.gnb_wrap li a{padding: 10px; display: block; color: #Fff;}
+
+.logo{width: 33.3333%; text-align: center; line-height: 65px;}
+
+.login{height: 100%; width: 33.3333%;}
+.login div{float: right; line-height: 55px; padding:15px;}
+.login div a{padding-left: 15px; color: #fff;}
+.login .sign_in{padding-left: 0}
+
+.m_btn{display: none;}
+.m_gnb{display: none;}
+
+.footer_{position: relative; width: 100%; height: 300px; background-color: #252525;}
+.link_list{color: #fff; overflow:hidden;}
+.link1{width: 30%; padding-top: 20px; padding-left: 10%;}
+.link1 .f_tit{position: relative; font-weight: 400;}
+.link1 .f_tit:after{content: ''; position: absolute; width: 280px; background-color: #d9d9d9; height: 1px; bottom:-70%;
+left: 0;}
+.link1 ul li{padding-top: 20px;}
+.link1 ul li:first-child{padding-top: 40px;}
+.link1 ul li a{color: #fff; font-weight: 200;}
+.company{width: 100%; border-top: 1px solid #d9d9d9; height: 100px; margin-top: 40px; color: #fff; font-weight: 200;
+text-align: center;}
+.company p{padding-top: 10px; font-size: 13px;}
+.company .company1{padding-top: 30px;}

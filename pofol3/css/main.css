@@ -1,0 +1,103 @@
+@charset "utf-8";
+.container{width: 100%; position: relative}
+
+/* visual */
+.visual{width: 100%; position: relative}
+.visual_wrap{position: relative; width: 100%; overflow: hidden;}
+.visual_list{width: 300%; display: flex;}
+.visual_list li{width:33.3333%;}
+.visual_list li img{width: 100%;}
+
+.btn_wrap{position: absolute; bottom: 0%; left: 50%; transform: translateX(-50%);}
+.visual_btn{text-align: center;}
+.visual_btn li{display: inline-flex; margin-left: 10px;}
+.visual_btn li:first-child{margin-left: 0;}
+.visual_btn li a{width: 10px; height: 10px; border-radius: 100%; background-color: #fff; display: inline-block;}
+.visual_btn li a span{font-size: 0;}
+.visual_btn a.on{background-color: #1d4a96;}
+
+/* product */
+.product{width: 100%; position: relative; margin: 0 auto; margin-top: 40px;}
+.pd{text-align: center;}
+.h3_title{font-size: 1.5rem; padding-bottom: 15px;}
+.sc_title{font-size: 1rem; padding-top: 2%; line-height: 1.3rem; padding-bottom: 30px;}
+
+.product_wrap{position: relative; width:100%; margin: 0 auto;}
+.pd_list{position: relative; text-align: center; width: 100%; height: 220px; color: #fff; overflow: hidden;}
+
+.pd_list.cs_fresh{background-color: #033972; display: flex;}
+.cs_fresh_inner{background: url(../images/bottleimg_1.png)no-repeat left 40%; width: 95%; margin: 0 auto;}
+
+.pd_list .text_group{text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8); padding: 40px 5% 0px 30%;}
+.text_group .pd_h3{font-size: 2rem; font-weight: 500;}
+.text_group .pd_type{font-size: 1rem; line-height: 1.7rem;}
+.text_group .pd_des{font-size: 1rem; line-height: 1.2; font-weight: 400;}
+
+/* 자세히보기 버튼 */
+.text_group .more_btn{margin-top: 20px; display: inline-block; border: 1px solid #fff; border-radius: 20px; width: 90px; height: 22px;
+font-size: 0.8rem;}
+.text_group .more_btn a{color:#fff; line-height: 22px; font-weight: 300;}
+
+.pd2Wrap{display: flex;}
+.pd_list.cs_zero{background-color: #9f9f9f; display: flex;}
+.cs_zero_inner{background: url(../images/bottleimg_zero.png)no-repeat right -10%; width: 95%; margin: 0 auto;}
+.pd_list.cs_zero .zero_{padding-left: 0; padding-right: 25%;}
+
+.pd_list.cs_light{background-color: #71c4f6; display: flex;}
+.cs_light_inner{background: url(../images/bottleimg_4.png)no-repeat left -10%; width: 95%; margin: 0 auto;}
+
+
+
+/* news */
+.news{width: 100%; margin-top: 50px;}
+.news_group{position: relative; width: 100%; margin: 0 auto; height: 480px; overflow: hidden}
+.news_wrap{display: flex; width: 300%; left: 0px; position: absolute;}
+.news_list{padding: 30px 0px 0px 60px; width: 100%;}
+.news_des{position:relative; padding-top:30px; letter-spacing: 1px; margin: 0 auto;}
+.news_des .news_tit{font-size: 1.1rem; line-height: 1.5rem;}
+.news_des .news_txt1{font-size: 1em;  padding-top: 30px; padding-bottom: 30px; position: relative; line-height: 1.3rem;}
+.news_des .news_txt1:before{position: absolute; content: ''; bottom:80%; height: 2px; width: 17%; background-color:#1d4a96;}
+.news_des .news_txt2{bottom: -5px; position: absolute; font-size: 13px;}
+
+/* news 더보기 */
+ .newBtn{width: 40px; height: 40px; display: inline-block; text-align: center; color: #4e4c4c; position: absolute; top:30%;}
+.newBtn a{display: block; width: 100%; height: 100%; font-size: 0;}
+.n_leftBtn{background: url(../images/news_btn_left.jpg)no-repeat 50% 50%; left: 0%;  background-color: #fff; display: block; }
+.n_rightBtn {background: url(../images/news_btn_right.jpg)no-repeat 50% 50%; right: 0%;  background-color: #fff;}
+.btnOn{display: block;} 
+
+/* base */
+.base{position: relative; width: 100%; margin-top: 70px; background: url(../images/pattern.jpg); height: 520px;}
+.base_tit{text-align: center; font-size: 1rem; font-weight: 300; line-height: 1.4; color: #fff; padding-top: 20px;}
+.base_box{display: flex; width: 100%;}
+.base_box li{text-align: center; padding-top: 30px; width: 50%;}
+.base_box li p{color: #fff;}
+.icon1{background: url(../images/macicon.png)no-repeat center; width: 120px; height: 120px; display: inline-block;}
+.icon2{background: url(../images/easticon.png)no-repeat center; width: 120px; height: 120px; display: inline-block;}
+.icon3{background: url(../images/hopeicon.png)no-repeat center; width: 120px; height: 120px; display: inline-block;}
+.icon4{background: url(../images/watericon.png)no-repeat center; width: 120px; height: 120px; display: inline-block;}
+
+/* 섹션제목 */
+.section_tit{width:100%; position: relative; margin: 0 auto; text-align: left; margin-bottom: 10px;}
+.title{font-size: 1.5rem; font-weight:500; padding-left: 10%;}
+.base_txt{color: #fff; text-align: center; padding-top: 15px; font-weight: 600; font-size: 1.5rem; padding-left:0}
+
+/* video */
+.video_sub{text-align: center; padding:10px 0px 20px 0px}
+.video_tit{font-size: 1.2rem; font-weight: 600; line-height:2; white-space: nowrap; }
+.video_txt{line-height:1.4rem; color:rgb(110, 106, 106);}
+
+.video{width: 100%; height: 450px; margin-top: 40px; position: relative; text-align: center; }
+.video_cnt{width: 100%;}
+.vdTit{color: #222; padding-top: 20px;}
+
+
+/* instagram */
+.instagram{width: 100%; position: relative; margin-top: 50px;}
+.instabox{width:85%; position: relative; margin: 50px auto; height: 140px; overflow: hidden;}
+.instabox .insta_list{display: flex; position: absolute; left: 0px;}
+.instabox .insta_list li{padding-left: 1%;}
+.instabox .insta_list li a{display: block; position: relative;}
+.instabox .insta_list li .insta:before{content: ''; background: url(../images/insta_icon.png)no-repeat center; width: 25px; height: 25px;}
+.instabox .insta_list li a:before{content: ''; position: absolute;  top: 10px; left: 10px;}
+.instabox ul li:first-child{padding-left: 0}

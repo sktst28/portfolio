@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.container{width: 100%}
+.container_wrap{position: relative; margin: 0 auto; width: 1200px;}
+
+/*왼쪽메뉴*/
+.lnb{position: relative; width: 230px; height: 486px; border-top: 1px solid #dfe6ee; margin-top: 30px;  box-sizing: border-box; float: left;}
+.lnb h2{width: 230px; height: 90px; background-color: #2f4f9b; font-size: 27px; color: #fff;
+ border: 1px solid #dfe6ee; text-align: center; font-weight: normal; line-height: 80px; box-sizing: border-box;}
+
+.lnb .lnb_menu li{border: 1px solid #a3b0bf; font-size: 16px; height: 59px; line-height: 55px; padding-left: 15px;}
+.lnb .lnb_menu .lnb_list{background: url(../images_noticeboard/lnb_btn.png) no-repeat 95%}
+.lnb .lnb_menu li:first-child{margin-top: 20px;}
+.lnb .lnb_menu li:hover{text-decoration: underline}
+
+.lnb .lnb_menu .fist_list{background-color: #388fd9; border-top: none}
+.lnb .lnb_menu .fist_list a{color: #fff}
+.lnb .lnb_menu li > ul >li{display: none}
+
+/*중간메뉴*/
+.contents{float: right; width: 930px;}
+
+.location{text-align: right; margin-top:15px}
+.location span{padding-left: 2px}
+.location .home_btn{position:absolute; right: 130px; top: 17px; }
+.notice_title{font-size: 30px; letter-spacing: -1px; padding-left: 20px; padding-top:10px}
+
+.notice_box{width: 930px; height: 110px; border: 1px solid #dfe6ee; font-size: 14px;}
+.notice_box li{list-style: square;}
+
+select, input, button{vertical-align: middle}
+
+.search_frm{padding:10px 0; width: 100%; height: 50px; text-align: center;}
+.search_frm select{border: 1px solid #7d7d7d; width:70px; height: 30px; font-size: 14px:}
+.search_frm .srch_keyword{border: 1px solid #7d7d7d; height: 30px; padding-left: 5px; width: 400px;}
+.search_frm button{background-color: #394b61; color: #fff; height: 32px; width: 60px;}
+
+.BD_list{width: 930px; border-top: 3px solid #bbcadd; border-bottom: 1px solid #bebebe; line-height: 30px; border-collapse: collapse;}
+.BD_list .table_1 tr{border-bottom: 2px solid #bbcadd}
+.BD_list .table_2 td{padding: 8px 6px; text-align: center; border-bottom: 1px solid #bebebe}
+.BD_list .table_2 td:nth-child(2):hover{text-decoration: underline;}
+
+.paging{position: relative; margin: 0 auto; width: 50%; height: 20px; margin-bottom: 80px;}
+
+.pag_btn li{float: left; width: 30px; height: 20px; text-align: center;}
+
+.pag_btn li a{border:1px solid #bebebe; display: inline-block; border: none}
+.pag_btn li a:hover{text-decoration: underline}
+
+.on{background-color: #394b61; color:#fff;}
+
+
+
+
+
+
+
+

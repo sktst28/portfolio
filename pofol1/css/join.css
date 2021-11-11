@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+#wrap{width: 100%}
+
+.hearder{width: 100%; position: relative;}
+.header_title{width: 100%; height: 200px; background-color: #0c4b9b;}
+.header_title h1{font-size: 40px; letter-spacing: 2.5px; color: #fff; text-align: center; line-height: 200px; font-weight: 600}
+
+.container{width: 100%; position: relative; margin: 0 auto}
+
+.join_step{width: 1200px; margin: 0 auto;}
+.join_step .step_list{width: 1200px; height: 100px; margin: 40px 0px; line-height: 100px;}
+.join_step .step_list li{float: left;}
+
+.join_box{position: relative; margin: 0 auto; width: 1200px; height: 1000px}
+.join_title{margin: 20px 0px;}
+.join_title h2{font-size: 23px;}
+.join_title > span{float: right; font-size: 12px; color: red}
+
+.join_frm{width: 100%; height: 705px; box-sizing:border-box; font-size: 1.1em; margin-bottom: 30px; box-sizing: border-box;}
+.join_write{width: 1200px; height: 702px;}
+.join_frm tbody th{text-align: left; background-color: #f1f2f1}
+.join_frm tbody th, td{box-sizing:border-box; border-top: 1px solid #dfe6ee; padding: 15px 15px;}
+.join_frm tbody .name{border-top: 1px solid #b3b3b3}
+.join_frm tbody .mail{border-bottom: 1px solid #b3b3b3;}
+.join_frm tbody .userSms{padding-left: 10px;}
+
+.join_frm .notice_txt,
+.join_frm .typo{color: red; font-size: 12px; }
+.join_frm .text_frm{border: 1px solid #bebebe; height: 30px; padding-left: 5px; width: 130px; margin-left: 5px;}
+.join_frm .text_frm2{border: 1px solid #bebebe; height: 30px; padding-left: 5px; width: 350px; margin-left: 5px; margin-top: 5px;}
+.join_frm .email_frm{border: 1px solid #bebebe; height: 30px; padding-left: 5px; width: 90px;}
+.join_frm .btn_frm{border: 1px solid #bebebe; height: 30px; width: 80px; margin-left: 5px;}
+.join_frm .btn_frm2{border: 1px solid #bebebe; height: 30px; width: 90px; margin-left: 5px;}
+.join_frm .phone_frm{border: 1px solid #bebebe; height: 30px; padding-left: 5px; width: 60px;}
+.join_submit{float: right; height: 100px;}
+.join_submit a{border: 1px solid #bebebe; padding: 5px 25px; display: inline-block; vertical-align: middle}
+.join_submit button{border: 1px solid #bebebe; padding:6px 25px; margin-left: 10px; background-color:#0c4b9b; color: #fff }
+.join_frm .select_frm{border: 1px solid #bebebe; height: 33px; width: 85px;}

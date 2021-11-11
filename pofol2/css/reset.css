@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body, div ,h1,h2,h3, ul,li, a,img ,span, p, header, section, footer, dl,dt,dd, i,video,strong,em{margin: 0; padding: 0;}
+
+header, section, footer{display: block;}
+body,input{font-size: 14px; font-family: 'Noto Sans KR', '본고딕', '돋움', dotum, sans-serif; color: #222;}
+h1{font-family:'Montserrat',sans-serif; font-weight: 700;}
+
+img,video{border: none;}
+ul{list-style: none}
+em{font-style: normal}
+a{text-decoration: none; color: #222;}
+
+a:link,
+a:visited{text-decoration: none; color: #222}
+
+a:hover,
+a:active,
+a:focus{text-decoration: none; color:#222}

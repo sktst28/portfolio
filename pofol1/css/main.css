@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+.container{width:100%;}
+
+.visualWrap{width:100%; height: 320px; background: url(../images/visual_background%20img.png) no-repeat center;}
+
+.visual{position: relative; width:1192px; height: 303px; margin: 0 auto; overflow: hidden}
+.visualList{width:2384px; height: 303px; position: absolute; left: 0; top:0;}
+.visualList li{width: 1192px; height: 303px; float: left; padding-top: 15px;}
+
+.visual_btn{position: relative; width: 1192px; height: 303px;}
+.visual_btn .btn_prev{position: absolute; bottom: 120px;}
+.visual_btn .btn_next{position: absolute; right: 0px; bottom: 120px;}
+
+.visual_btn_icon{position: absolute; right: 0; bottom: 0; background-color:#646464; opacity:70%; width: 60px; height: 25px}
+.visual_btn_icon span{color: #fff; font-size: 15px; margin-left: 3px;}
+.visual_btn_icon:first-child{padding-left: 0;}
+.visual_btn_icon .stopbtn{font-size: 0; display: block; background: url(../images/banner_play_btn_final.png) no-repeat right; width:18px; height: 18px; position: absolute; bottom: 4px; right: 6px;}
+.visual_btn_icon .playbtn{font-size: 0; display: block; background: url(../images/banner_start\ btn.png) no-repeat right; width:18px; height: 18px; position: absolute; bottom: 4px; right: 6px;}
+
+.quickManu{position: relative; margin: 0 auto; width:1200px; height: 140px; overflow: hidden; box-sizing: border-box;
+padding-top: 20px}
+.quickManu_list li{float: left; text-align: center;  margin-left: 12px; margin-right: 12px;}
+.quickManu_list li a{background: url(../images/quickManu_icon_img.png); width: 95px; height: 88px; line-height: 210px; font-weight: 400; float: left;}
+
+.quickManu_list li a span{font-size: 15px;}
+
+.quickManu_list .icon01{background-position: 0 0px;}
+.quickManu_list .icon02{background-position: -124px 0px}
+.quickManu_list .icon03{background-position: -246px 0px}
+.quickManu_list .icon04{background-position: -369px 0px}
+.quickManu_list .icon05{background-position: -492px 0px}
+.quickManu_list .icon06{background-position: -615px 0px}
+.quickManu_list .icon07{background-position: -738px 0px}
+.quickManu_list .icon08{background-position: -861px 0px}
+.quickManu_list .icon09{background-position: -981px 0px}
+.quickManu_list .icon10{background-position: -1099px 0px}
+
+
+
+.section1{position: relative; margin: 0 auto; width: 1200px; height: 303px;  margin-bottom: 35px; margin-top: 35px;}
+
+/*공지사항*/
+.notice{width:520px; height:303px; border: 1px solid #bebebe; background-color: #fff; box-sizing: border-box; border-top: none; float: left; position: relative;}
+.notice .notice_list{width: 520px; height: 303px;}
+.notice .notice_list .contents{position: absolute; width: 480px; height: 303px; top: 70px;
+padding-left: 10px;}
+.notice .notice_list .contents li{font-size: 14px; font-weight: 400; background: url(../images/notice_liststyle.png) no-repeat 0px 14px; padding-left: 10px; line-height: 30px;}
+.notice .notice_list .contents li:hover{text-decoration: underline;}
+.notice .contents li .date{float: right;}
+
+.notice .notice_list h3{float: left; border: 1px solid #bebebe; width: 90px; height: 50px; font-size: 18px; border-right: none; border-bottom: 2px solid #3d516a; font-weight: 400; text-align: center; line-height: 50px; color: #d9d9d9;}
+
+.notice .notice_list h3.ntc_on{border-bottom: none; border-top: 2px solid #3d516a; border-right: 2px solid #3d516a; border-left:  2px solid #3d516a;  font-weight: 500; color: #222;}
+.notice .notice_list li:first-child h3.ntc_on{border-left: none}
+.notice .notice_list .notice_btn{position:absolute; top: 0px; left: 456px; border: 1px solid #bebebe; height: 50px; width: 61px;
+    background: url(../images/contents_list_more.png) no-repeat 50% 50%; border-bottom: 2px solid #3d516a;}
+.notice .notice_list .notice_btn .morebtn{display: block; font-size: 0; z-index: 999;}
+
+/*스크립트*/
+.notice .notice_list li .contents{display: none;}
+.notice .notice_list li .contents.on{display: block;}
+
+
+
+/*알림창*/
+.popup{border:1px solid #bebebe; background-color: #fff; width: 335px; height: 305px; margin-left: 20px; box-sizing: border-box; position: relative; float: left;}
+.popup .popup_title{font-size: 1.4em; font-weight: 400; line-height: 40px; margin-left: 5px}
+.popup_zone{width:334px; height: 303px; overflow: hidden; position: relative;}
+.popup_zone .popup_list{width: 1002px; left: 0px; position: absolute; bottom: 40px;}
+.popup_zone .popup_list li{width: 334px; height: 258px; float: left}
+.popup_control{font-size: 1.4em; float: left; position: absolute; top: 7px; right:140px;}
+.popup_btn{position: absolute; top: 0px; right: 0px}
+
+
+.edu{height: 304px; float: left; border: 1px solid #bebebe; background-color: #fff; margin-left:19px; background: url(../images/edu_img.png) no-repeat 0 0; width: 303px; box-sizing: border-box; position: relative;}
+.edu .edu_social{margin:40px 30px}
+.edu_list{position:absolute; bottom: 0px; width: 302px; }
+.edu_link li{background: #3a5daa url(../images/edu_btn.png) no-repeat 137px 18px; display: block; float: left; box-sizing: border-box; width: 50%; font-size: 15px; padding: 10px;}
+.edu_link li  a:hover{text-decoration: underline;}
+.edu_link li a{color: #fff;}
+
+
+/*사용자별 탭*/
+.section2{margin: 0 auto; width:1200px; margin-bottom: 35px; box-sizing: border-box;}
+
+.user_tab{position: relative; width: 1196px; border: 1px solid #bebebe; height: 320px; background-color: #fff; border-top: none;}
+
+.user_tab .tab_title{display: inline-block; box-sizing: border-box; width: 296px; height: 84px; margin-bottom: 15px; position: relative;}
+.user_tab .tab_title a{position: absolute; display: inline-block;}
+.user_tab .tab_title .userbtn{display: none;}
+.user_tab .tab_title.on .userbtn{position: absolute; top: 65px; left: 45%; display: block;}
+
+
+.user_tab .tab_area{position:absolute; width: 100%; box-sizing: border-box; display: none;}
+.user_tab .tab_area.on{display: block;}
+
+.user_tab .tab_text{position: relative; width: 220px; text-align: center; height: 200px; padding-left:20px; padding-right: 10px; }
+.user_tab .tab_text p{float: left; padding-left: 30px;}
+.user_tab .tab_text span{font-size: 16px; position: absolute; left: 35px; bottom: 5px;}
+
+.user_tab .tab_link{float: left; width: 700px; position: absolute; top: 10px; right: 15%}
+.user_tab .tab_link li{float: left; width: 25%; line-height: 30px; font-size: 16px; margin-left: 50px; line-height: 35px;
+background: url(../images/tab_box%20background.png) no-repeat 0 18px; padding-left: 8px; font-weight: 400;}
+.user_tab .tab_link li a:hover{color: #0085d1}
+
+
+/*바로가기 버튼*/
+.section3{position: relative; margin: 0 auto; width: 1200px; height: 100px; margin-bottom: 35px;}
+
+/* .quickBtn{position: relative; width: 1200px; height: 100px; box-sizing:border-box} */
+.quickBtn_list li{float: left; padding-left:33px}
+
+.section4{background-color: #fff; border: 1px solid #bebebe; box-sizing: border-box; width: 100%;
+height: 100px}
+
+.section4 .banner{position: relative; margin: 0 auto; width: 1200px; height: 100px;}
+.section4 .banner .banner_btn{width: 70px; float: left; margin-top: 40px;}
+/* .section4 .banner .banner_btn a{display: block;} */
+
+
+.section4 .banner_zone{float: left; position: absolute; top: 30px; left: 30px}
+.section4 .banner_zone .banner_list li{width:173px; height: 42px; float: left; margin-left: 50px;}
+

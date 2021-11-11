@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@media all and (min-width:375px) and (max-width:1024px) {
+    #wrapper,
+    .header_group,
+    .footer_wrap{width: 100%; position: relative;}
+
+    body, div ,h1,h2,h3, ul,li, a,img ,span, p, header, section, footer, dl,dt,dd, i,video,strong,em{margin: 0; padding: 0;}
+
+    .container{width: 100vw; height: 100vh;}
+
+    .home{width: 100vw; height: 100vh; position: relative; object-fit: cover;}
+    .home video{object-fit: cover; width:100vw; height: 100vh; position: relative;}
+}

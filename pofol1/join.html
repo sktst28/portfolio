@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>포항교육청 로그인페이지</title>
+ <meta name="robots" content="noindex, nofollow"/>
+ <meta name="keywords" content="교육청홈페이지"/>
+ <meta name="description" content="포항교육청"/>
+ <meta name="author" content="김서은"/>
+
+ <link rel="stylesheet" type="text/css" href="css/join.css"/>
+ <link rel="stylesheet" type="text/css" href="css/common.css"/>
+ <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+ <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+ 
+</head>
+
+<body>
+<div id="wrap">
+    <div class="hearder">
+        <div class="header_title">
+            <h1>일반회원(14세이상)</h1>
+        </div> <!--header_title E-->
+    </div> <!--hearder E-->
+    
+    <div class="container" id="container">
+        <div class="join_step">
+            <ul class="step_list">
+                <li class="pr55"><img src="images_join/step1.png" alt="STEP1 회원유형선택"/></li>
+                <li class="pr55"><img src="images_join/step2.png" alt="STEP2 약관동의및본인인증"/></li>
+                <li><img src="images_join/step3.png" alt="STEP3 회원정보입력"/></li>
+                <li class="pl55"><img src="images_join/step4.png" alt="STEP4 가입완료"/></li>
+            </ul>
+        </div> <!--"join_step E-->
+        
+        <div class="join_box">
+          <div class="join_title">
+           <h2>회원정보입력</h2>
+           <span>*표시는필수 항목 입니다.</span>
+           </div> <!--join_title E-->
+            <form method="post" aciton="#" name="join_frm" class="join_frm">
+                <table class="join_write" summary="회원가입을 위한 이름 아이디 비밀번호 비밀번호확인 주소 휴대전화번호
+                      SMS수신여부 이메일 정보수신메일을 기재하는 표">
+                <caption class="skip">회원정보입력</caption>
+                    <colgroup>
+                        <col width="20%">
+                        <col width="80%">
+                    </colgroup>
+                <tbody>
+                    <tr>
+                        <th scope="row" class="name">이름
+                            <span class="typo">*</span>
+                        </th>
+                        <td class="name pl10">김서은</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">아이디
+                            <span class="typo">*</span>
+                        </th>
+                        <td><input type="text" name="userId" class="text_frm" id="userId"/>
+                            <input type="button" value="중복확인" class="btn_frm"/>
+                        <span class="notice_txt">*아이디는 공백없이 영문(소문자)으로 시작하고, 영문(소문자), 숫자로만 이루어진 6~20자 이하의 문자열만 허용됩니다</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">비밀번호
+                            <span class="typo">*</span>
+                        </th>
+                        <td><input type="password" name="userPw" class="text_frm" id="userPw"/>
+                        <span class="notice_txt">*영문소문자,대문자,숫자,특수문자 중 2가지 이상 혼합하여 8자리 이상 사용바랍니다.</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">비밀번호확인</th>
+                        <td><input type="password" name="userPw_chk" class="text_frm" id="userPw_chk"/></td>
+                    </tr>
+                    <tr class="find_post">
+                        <th scope="row">주소
+                            <span class="typo">*</span>
+                        </th>
+                        <td>
+                            <input type="text" name="userPost" class="text_frm" id="userPost1" title="우편번호입력"/>
+                            <input type="button" value="우편번호검색" class="btn_frm2"/><br>
+                            <input type="text" name="userPost" class="text_frm2" id="userPost2" title="상세주소입력"/><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">휴대전화번호
+                            <span class="typo">*</span>
+                        </th>
+                        <td>
+                        <select id="userPhone1" name="userPhone" class="phone_frm ml10" title="앞번호선택란">
+                            <option value="#">010</option>
+                            <option value="#">011</option>
+                            <option value="#">016</option>
+                            <option value="#">017</option>
+                            <option value="#">018</option>
+                            <option value="#">019</option>
+                        </select>
+                            <span class="phoneBar">-</span>
+                         <input type="text" name="userPhone2" class="phone_frm" id="userPhone2" title="중간번호입력란"/>
+                         <span class="phoneBar">-</span>
+                         <input type="text" name="userPhone3" class="phone_frm" id="userPhone3" title="뒷자리입력란"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SMS 수신여부</th>
+                        <td class="userSms">
+                            <input type="radio" name="userSms1" id="userSms1"/>
+                            <label for="userSms1">수신함</label>
+                            <input type="radio" name="userSms1" id="userSms2" checked="checked"/>
+                            <label for="userSms2">수신하지 않음</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">이메일</th>
+                        <td>
+                            <input type="text" name="userEmail1" class="email_frm ml10" id="userEmail1"/>
+                            <span>@</span>
+                            <input type="text" name="userEmail2" class="email_frm mr5" id="userEmail2"/>
+
+                        <select id="userPhone3" name="userPhone3" class="select_frm">
+                           <option value="#">직접입력</option>
+                            <option value="#">네이버</option>
+                            <option value="#">다음</option>
+                            <option value="#">지메일</option>
+                            <option value="#">네이트</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="mail">정보수신메일</th>
+                        <td class="mail pl10">
+                           <span>교육청에서 제공하는 정보수신메일을 받으시겠습니까?</span>
+                            <input type="radio" name="userE1" id="userE1"/>
+                            <label for="userE1">수신함</label>
+                            <input type="radio" name="userE1" id="userE2" checked="checked"/>
+                            <label for="userE2">수신하지 않음</label>
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+            </form> 
+            <div class="join_submit">
+                       <a href="#">취소</a>
+                        <button type="submit" class="submit_btn">확인</button>
+                    </div>
+        </div>
+        
+    </div> <!--container E-->
+    
+</div> <!--wrap E-->
+
+
+</body>
+
+</html>
